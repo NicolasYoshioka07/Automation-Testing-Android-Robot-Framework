@@ -148,9 +148,9 @@ Com a ressalva de que na chave "app", será necessário passar o caminho absolut
 
 - Caso não tenha o PIP instalado recomendo ler o tutorial para a instalação do Python e PIP no readme do meu outro projeto: https://github.com/NicolasYoshioka07/Automation-Testing-using-BDD-and-Behave-Python-
 
-22 - E por fim, para executar todos os cenários de testes:
+23 - E por fim, para executar todos os cenários de testes:
 - $ robot -d ./logs tests
 
-23 - Na pasta logs do projeto você poderá acompanhar mais detalhadamente todos os cenários executados.
+24 - Na pasta logs do projeto você poderá acompanhar mais detalhadamente todos os cenários executados.
 
-24 - Muito obrigado!
+25 - Muito obrigado!
