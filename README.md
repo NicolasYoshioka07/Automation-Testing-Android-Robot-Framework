@@ -119,7 +119,13 @@ O resultado esperado deverá ser algo parecido com esse: https://prnt.sc/tszlgl
 16 - Agora por fim, poderemos clonar o projeto em algum diretório da sua máquina, por exemplo, crie uma pasta chamada automation no seu desktop, abra o terminal e navegue até essa pasta criada, por fim, clone o projeto inserindo o seguinte comando no terminal:
 - $ git clone https://github.com/NicolasYoshioka07/Automation-Testing-Android-Robot-Framework.git
 
-17 - Retorne ao Appium Inspector e agora será necessário configurar o Desired Capabilities conforme a seguir: https://prnt.sc/tszrlf
+17 - Retorne ao Appium Inspector e agora será necessário configurar o Desired Capabilities conforme a seguir: https://prnt.sc/tt1qx7
+- "automationName": "UiAutomator2",
+- "platformName": "Android",
+- "deviceName": "Emulator",
+- "app": "C:\\Users\\nicol\\Desktop\\automation\\Automation-Testing-Android-Robot-Framework\\app\\app-debug.apk",
+- "udid": "emulator-5554"
+
 
 Para tal, clique no símbolo com o desenho de "+" para conseguir adicionar os valores necessários.
 
@@ -135,7 +141,10 @@ Com a ressalva de que na chave "app", será necessário passar o caminho absolut
 - $ pip install robotframework
 
 21 - No terminal, instale também a library do selenium:
-- $ pip isntall robotframework-seleniumlibrary
+- $ pip install robotframework-seleniumlibrary
+
+22 - Instale também a library do appium:
+- $  pip install robotframework-appiumlibrary 
 
 - Caso não tenha o PIP instalado recomendo ler o tutorial para a instalação do Python e PIP no readme do meu outro projeto: https://github.com/NicolasYoshioka07/Automation-Testing-using-BDD-and-Behave-Python-
 
